@@ -1,0 +1,77 @@
+[2023-07-20T08:03:36.505+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_ingest.local_to_gcs_task scheduled__2023-07-19T00:00:00+00:00 [queued]>
+[2023-07-20T08:03:36.528+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_ingest.local_to_gcs_task scheduled__2023-07-19T00:00:00+00:00 [queued]>
+[2023-07-20T08:03:36.529+0000] {taskinstance.py:1308} INFO - Starting attempt 6 of 7
+[2023-07-20T08:03:36.801+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2023-07-19 00:00:00+00:00
+[2023-07-20T08:03:36.810+0000] {standard_task_runner.py:57} INFO - Started process 231 to run task
+[2023-07-20T08:03:36.817+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'data_ingest', 'local_to_gcs_task', 'scheduled__2023-07-19T00:00:00+00:00', '--job-id', '816', '--raw', '--subdir', 'DAGS_FOLDER/ingest_data.py', '--cfg-path', '/tmp/tmpy3zo9xu3']
+[2023-07-20T08:03:36.821+0000] {standard_task_runner.py:85} INFO - Job 816: Subtask local_to_gcs_task
+[2023-07-20T08:03:36.910+0000] {task_command.py:410} INFO - Running <TaskInstance: data_ingest.local_to_gcs_task scheduled__2023-07-19T00:00:00+00:00 [running]> on host e199436bb017
+[2023-07-20T08:03:37.041+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_ingest' AIRFLOW_CTX_TASK_ID='local_to_gcs_task' AIRFLOW_CTX_EXECUTION_DATE='2023-07-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-19T00:00:00+00:00'
+[2023-07-20T08:03:38.008+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2553, in upload_from_file
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2384, in _do_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2211, in _do_resumable_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2086, in _initiate_resumable_upload
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 421, in initiate
+    retriable_request, self._get_status_code, self._retry_strategy
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 155, in wait_and_retry
+    response = func()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 416, in retriable_request
+    self._process_initiate_response(result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_upload.py", line 513, in _process_initiate_response
+    callback=self._make_invalid,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_helpers.py", line 113, in require_status_code
+    *status_codes
+google.resumable_media.common.InvalidResponse: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.CREATED: 201>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ingest_data.py", line 59, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2697, in upload_from_filename
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2557, in upload_from_file
+    _raise_from_invalid_response(exc)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 4373, in _raise_from_invalid_response
+    raise exceptions.from_http_status(response.status_code, message, response=response)
+google.api_core.exceptions.NotFound: 404 POST https://storage.googleapis.com/upload/storage/v1/b/airbnb_lake/o?uploadType=resumable: {
+  "error": {
+    "code": 404,
+    "message": "The specified bucket does not exist.",
+    "errors": [
+      {
+        "message": "The specified bucket does not exist.",
+        "domain": "global",
+        "reason": "notFound"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.CREATED: 201>)
+[2023-07-20T08:03:38.022+0000] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=data_ingest, task_id=local_to_gcs_task, execution_date=20230719T000000, start_date=20230720T080336, end_date=20230720T080338
+[2023-07-20T08:03:38.044+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 816 for task local_to_gcs_task (404 POST https://storage.googleapis.com/upload/storage/v1/b/airbnb_lake/o?uploadType=resumable: {
+  "error": {
+    "code": 404,
+    "message": "The specified bucket does not exist.",
+    "errors": [
+      {
+        "message": "The specified bucket does not exist.",
+        "domain": "global",
+        "reason": "notFound"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.CREATED: 201>); 231)
+[2023-07-20T08:03:38.074+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-20T08:03:38.115+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

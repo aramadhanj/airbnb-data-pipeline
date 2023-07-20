@@ -1,0 +1,356 @@
+[2023-07-20 05:27:01,218] {processor.py:163} INFO - Started process (PID=62) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:27:01,238] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:27:01,239] {logging_mixin.py:109} INFO - [2023-07-20 05:27:01,238] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:27:04,184] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:27:04,184] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:27:04,184] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:27:04,184] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:27:04,223] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:27:10,834] {logging_mixin.py:109} INFO - [2023-07-20 05:27:10,833] {manager.py:496} INFO - Created Permission View: can edit on DAG:ingest_listing
+[2023-07-20 05:27:10,856] {logging_mixin.py:109} INFO - [2023-07-20 05:27:10,856] {manager.py:496} INFO - Created Permission View: can read on DAG:ingest_listing
+[2023-07-20 05:27:10,857] {logging_mixin.py:109} INFO - [2023-07-20 05:27:10,857] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:27:10,876] {logging_mixin.py:109} INFO - [2023-07-20 05:27:10,876] {dag.py:2415} INFO - Creating ORM DAG for ingest_listing
+[2023-07-20 05:27:10,892] {logging_mixin.py:109} INFO - [2023-07-20 05:27:10,892] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:27:10,914] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 9.701 seconds
+[2023-07-20 05:27:41,002] {processor.py:163} INFO - Started process (PID=94) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:27:41,006] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:27:41,007] {logging_mixin.py:109} INFO - [2023-07-20 05:27:41,007] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:27:41,655] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:27:41,655] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:27:41,655] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:27:41,655] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:27:41,688] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:27:41,705] {logging_mixin.py:109} INFO - [2023-07-20 05:27:41,705] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:27:41,728] {logging_mixin.py:109} INFO - [2023-07-20 05:27:41,728] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:27:41,742] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.744 seconds
+[2023-07-20 05:28:11,818] {processor.py:163} INFO - Started process (PID=117) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:28:11,820] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:28:11,820] {logging_mixin.py:109} INFO - [2023-07-20 05:28:11,820] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:28:12,475] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:28:12,475] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:28:12,475] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:28:12,475] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:28:12,506] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:28:12,521] {logging_mixin.py:109} INFO - [2023-07-20 05:28:12,520] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:28:12,539] {logging_mixin.py:109} INFO - [2023-07-20 05:28:12,538] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:28:12,547] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.733 seconds
+[2023-07-20 05:28:42,626] {processor.py:163} INFO - Started process (PID=140) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:28:42,630] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:28:42,631] {logging_mixin.py:109} INFO - [2023-07-20 05:28:42,630] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:28:43,322] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:28:43,322] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:28:43,322] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:28:43,322] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:28:43,348] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:28:43,359] {logging_mixin.py:109} INFO - [2023-07-20 05:28:43,358] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:28:43,375] {logging_mixin.py:109} INFO - [2023-07-20 05:28:43,375] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:28:43,384] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.761 seconds
+[2023-07-20 05:29:13,472] {processor.py:163} INFO - Started process (PID=172) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:29:13,473] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:29:13,474] {logging_mixin.py:109} INFO - [2023-07-20 05:29:13,474] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:29:14,100] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:29:14,100] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:29:14,100] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:29:14,100] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:29:14,129] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:29:14,145] {logging_mixin.py:109} INFO - [2023-07-20 05:29:14,144] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:29:14,164] {logging_mixin.py:109} INFO - [2023-07-20 05:29:14,163] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:29:14,174] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.706 seconds
+[2023-07-20 05:29:44,247] {processor.py:163} INFO - Started process (PID=195) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:29:44,249] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:29:44,250] {logging_mixin.py:109} INFO - [2023-07-20 05:29:44,250] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:29:44,846] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:29:44,846] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:29:44,847] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:29:44,847] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:29:44,872] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:29:44,888] {logging_mixin.py:109} INFO - [2023-07-20 05:29:44,888] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:29:44,904] {logging_mixin.py:109} INFO - [2023-07-20 05:29:44,904] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:29:44,914] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.672 seconds
+[2023-07-20 05:30:14,983] {processor.py:163} INFO - Started process (PID=218) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:30:14,984] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:30:14,985] {logging_mixin.py:109} INFO - [2023-07-20 05:30:14,984] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:30:15,677] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:30:15,677] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:30:15,677] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:30:15,677] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:30:15,716] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:30:15,732] {logging_mixin.py:109} INFO - [2023-07-20 05:30:15,732] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:30:15,754] {logging_mixin.py:109} INFO - [2023-07-20 05:30:15,754] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:30:15,767] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.788 seconds
+[2023-07-20 05:30:45,885] {processor.py:163} INFO - Started process (PID=250) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:30:45,891] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:30:45,892] {logging_mixin.py:109} INFO - [2023-07-20 05:30:45,892] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:30:46,594] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:30:46,594] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:30:46,594] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:30:46,595] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:30:46,629] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:30:46,639] {logging_mixin.py:109} INFO - [2023-07-20 05:30:46,638] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:30:46,653] {logging_mixin.py:109} INFO - [2023-07-20 05:30:46,653] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:30:46,664] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.784 seconds
+[2023-07-20 05:31:16,742] {processor.py:163} INFO - Started process (PID=274) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:31:16,744] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:31:16,744] {logging_mixin.py:109} INFO - [2023-07-20 05:31:16,744] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:31:17,385] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:31:17,385] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:31:17,385] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:31:17,385] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:31:17,411] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:31:17,422] {logging_mixin.py:109} INFO - [2023-07-20 05:31:17,421] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:31:17,443] {logging_mixin.py:109} INFO - [2023-07-20 05:31:17,442] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:31:17,453] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.715 seconds
+[2023-07-20 05:31:47,525] {processor.py:163} INFO - Started process (PID=297) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:31:47,529] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:31:47,530] {logging_mixin.py:109} INFO - [2023-07-20 05:31:47,530] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:31:48,132] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:31:48,133] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:31:48,133] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:31:48,133] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:31:48,180] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:31:48,194] {logging_mixin.py:109} INFO - [2023-07-20 05:31:48,194] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:31:48,220] {logging_mixin.py:109} INFO - [2023-07-20 05:31:48,220] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:31:48,231] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.710 seconds
+[2023-07-20 05:32:18,381] {processor.py:163} INFO - Started process (PID=321) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:32:18,383] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:32:18,384] {logging_mixin.py:109} INFO - [2023-07-20 05:32:18,384] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:32:19,085] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:32:19,085] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:32:19,085] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:32:19,085] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:32:19,106] {processor.py:654} INFO - DAG(s) dict_keys(['ingest_listing']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:32:19,118] {logging_mixin.py:109} INFO - [2023-07-20 05:32:19,117] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:32:19,139] {logging_mixin.py:109} INFO - [2023-07-20 05:32:19,139] {dag.py:2935} INFO - Setting next_dagrun for ingest_listing to 2023-07-19T00:00:00+00:00
+[2023-07-20 05:32:19,148] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.771 seconds
+[2023-07-20 05:32:45,465] {processor.py:163} INFO - Started process (PID=352) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:32:45,467] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:32:45,467] {logging_mixin.py:109} INFO - [2023-07-20 05:32:45,467] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:32:46,103] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:32:46,103] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:32:46,103] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:32:46,103] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:32:46,109] {logging_mixin.py:109} INFO - [2023-07-20 05:32:46,107] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ingest_data_listing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_data_listing.py", line 135, in <module>
+    task_id="end_task"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 34, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'end_task' has already been added to the DAG
+[2023-07-20 05:32:46,124] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:32:46,125] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:32:46,134] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.674 seconds
+[2023-07-20 05:33:16,217] {processor.py:163} INFO - Started process (PID=377) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:33:16,219] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:33:16,220] {logging_mixin.py:109} INFO - [2023-07-20 05:33:16,220] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:33:16,865] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:33:16,866] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:33:16,866] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:33:16,866] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:33:16,871] {logging_mixin.py:109} INFO - [2023-07-20 05:33:16,869] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ingest_data_listing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_data_listing.py", line 135, in <module>
+    task_id="end_task"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 34, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'end_task' has already been added to the DAG
+[2023-07-20 05:33:16,886] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:33:16,894] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.681 seconds
+[2023-07-20 05:33:46,970] {processor.py:163} INFO - Started process (PID=401) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:33:46,971] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:33:46,972] {logging_mixin.py:109} INFO - [2023-07-20 05:33:46,972] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:33:47,563] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:33:47,563] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:33:47,563] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:33:47,563] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:33:47,569] {logging_mixin.py:109} INFO - [2023-07-20 05:33:47,567] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ingest_data_listing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_data_listing.py", line 135, in <module>
+    task_id="end_task"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 34, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'end_task' has already been added to the DAG
+[2023-07-20 05:33:47,584] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:33:47,593] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.628 seconds
+[2023-07-20 05:34:17,669] {processor.py:163} INFO - Started process (PID=424) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:34:17,670] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:34:17,671] {logging_mixin.py:109} INFO - [2023-07-20 05:34:17,671] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:34:18,281] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:34:18,281] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:34:18,281] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:34:18,281] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:34:18,287] {logging_mixin.py:109} INFO - [2023-07-20 05:34:18,286] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ingest_data_listing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_data_listing.py", line 135, in <module>
+    task_id="end_task"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 34, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'end_task' has already been added to the DAG
+[2023-07-20 05:34:18,301] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:34:18,310] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.645 seconds
+[2023-07-20 05:34:48,387] {processor.py:163} INFO - Started process (PID=455) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:34:48,388] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:34:48,389] {logging_mixin.py:109} INFO - [2023-07-20 05:34:48,389] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:34:49,002] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:34:49,002] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:34:49,002] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:34:49,002] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:34:49,007] {logging_mixin.py:109} INFO - [2023-07-20 05:34:49,005] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ingest_data_listing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_data_listing.py", line 135, in <module>
+    task_id="end_task"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 34, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'end_task' has already been added to the DAG
+[2023-07-20 05:34:49,021] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:34:49,029] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.648 seconds
+[2023-07-20 05:35:19,111] {processor.py:163} INFO - Started process (PID=479) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:35:19,113] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:35:19,114] {logging_mixin.py:109} INFO - [2023-07-20 05:35:19,114] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:35:19,750] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:35:19,751] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:35:19,751] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:35:19,751] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:35:19,757] {logging_mixin.py:109} INFO - [2023-07-20 05:35:19,755] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ingest_data_listing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_data_listing.py", line 135, in <module>
+    task_id="end_task"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 34, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'end_task' has already been added to the DAG
+[2023-07-20 05:35:19,771] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:35:19,780] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.674 seconds
+[2023-07-20 05:35:49,874] {processor.py:163} INFO - Started process (PID=502) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:35:49,877] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:35:49,878] {logging_mixin.py:109} INFO - [2023-07-20 05:35:49,877] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:35:50,761] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:35:50,761] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:35:50,761] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:35:50,761] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:35:50,770] {logging_mixin.py:109} INFO - [2023-07-20 05:35:50,768] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ingest_data_listing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_data_listing.py", line 135, in <module>
+    task_id="end_task"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 34, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'end_task' has already been added to the DAG
+[2023-07-20 05:35:50,790] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:35:50,801] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.932 seconds
+[2023-07-20 05:36:20,882] {processor.py:163} INFO - Started process (PID=534) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:36:20,884] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:36:20,884] {logging_mixin.py:109} INFO - [2023-07-20 05:36:20,884] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:36:21,471] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-06-26/data/listings.csv.gz
+[2023-07-20 05:36:21,471] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2023-03-28/data/listings.csv.gz
+[2023-07-20 05:36:21,471] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-12-28/data/listings.csv.gz
+[2023-07-20 05:36:21,471] {logging_mixin.py:109} INFO - http://data.insideairbnb.com/thailand/central-thailand/bangkok/2022-09-21/data/listings.csv.gz
+[2023-07-20 05:36:21,476] {logging_mixin.py:109} INFO - [2023-07-20 05:36:21,475] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/ingest_data_listing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ingest_data_listing.py", line 135, in <module>
+    task_id="end_task"
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/dummy.py", line 34, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 553, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 175, in add
+    raise DuplicateTaskIdFound(f"Task id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'end_task' has already been added to the DAG
+[2023-07-20 05:36:21,490] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:36:21,498] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.620 seconds
+[2023-07-20 05:36:25,906] {processor.py:163} INFO - Started process (PID=539) to work on /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:36:25,908] {processor.py:642} INFO - Processing file /opt/airflow/dags/ingest_data_listing.py for tasks to queue
+[2023-07-20 05:36:25,909] {logging_mixin.py:109} INFO - [2023-07-20 05:36:25,909] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:36:26,528] {processor.py:654} INFO - DAG(s) dict_keys(['zones_data_v3']) retrieved from /opt/airflow/dags/ingest_data_listing.py
+[2023-07-20 05:36:26,825] {logging_mixin.py:109} INFO - [2023-07-20 05:36:26,825] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-20 05:36:26,841] {logging_mixin.py:109} INFO - [2023-07-20 05:36:26,841] {dag.py:2935} INFO - Setting next_dagrun for zones_data_v3 to None
+[2023-07-20 05:36:26,860] {processor.py:171} INFO - Processing /opt/airflow/dags/ingest_data_listing.py took 0.958 seconds

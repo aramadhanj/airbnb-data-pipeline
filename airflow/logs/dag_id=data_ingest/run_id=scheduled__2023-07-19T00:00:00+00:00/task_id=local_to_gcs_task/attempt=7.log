@@ -1,0 +1,24 @@
+[2023-07-20T08:07:42.015+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_ingest.local_to_gcs_task scheduled__2023-07-19T00:00:00+00:00 [queued]>
+[2023-07-20T08:07:42.029+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_ingest.local_to_gcs_task scheduled__2023-07-19T00:00:00+00:00 [queued]>
+[2023-07-20T08:07:42.029+0000] {taskinstance.py:1308} INFO - Starting attempt 7 of 8
+[2023-07-20T08:07:42.055+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2023-07-19 00:00:00+00:00
+[2023-07-20T08:07:42.064+0000] {standard_task_runner.py:57} INFO - Started process 101 to run task
+[2023-07-20T08:07:42.070+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'data_ingest', 'local_to_gcs_task', 'scheduled__2023-07-19T00:00:00+00:00', '--job-id', '819', '--raw', '--subdir', 'DAGS_FOLDER/ingest_data.py', '--cfg-path', '/tmp/tmpurnfjva6']
+[2023-07-20T08:07:42.074+0000] {standard_task_runner.py:85} INFO - Job 819: Subtask local_to_gcs_task
+[2023-07-20T08:07:42.152+0000] {task_command.py:410} INFO - Running <TaskInstance: data_ingest.local_to_gcs_task scheduled__2023-07-19T00:00:00+00:00 [running]> on host 57e29ff804da
+[2023-07-20T08:07:42.282+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_ingest' AIRFLOW_CTX_TASK_ID='local_to_gcs_task' AIRFLOW_CTX_EXECUTION_DATE='2023-07-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-19T00:00:00+00:00'
+[2023-07-20T08:07:42.407+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ingest_data.py", line 59, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2682, in upload_from_filename
+    with open(filename, "rb") as file_obj:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/listings.csv'
+[2023-07-20T08:07:42.421+0000] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=data_ingest, task_id=local_to_gcs_task, execution_date=20230719T000000, start_date=20230720T080742, end_date=20230720T080742
+[2023-07-20T08:07:42.439+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 819 for task local_to_gcs_task ([Errno 2] No such file or directory: '/opt/airflow/listings.csv'; 101)
+[2023-07-20T08:07:42.483+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-20T08:07:42.523+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
