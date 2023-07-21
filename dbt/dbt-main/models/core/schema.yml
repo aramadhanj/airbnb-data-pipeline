@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: fact_listing
+    columns:
+      - name: listing_id
+        description: "The primary key for this table"
+        tests:
+          - unique
