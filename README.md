@@ -32,7 +32,7 @@ This project utilizes such following tools that I learned from Data Engineering 
 
 ## Data Pipeline Architecture and Workflow
 
-![airbnb-pipeline drawio (1)](https://github.com/aramadhanj/airbnb-data-pipeline/assets/61931377/3217917b-d19b-4b78-9a88-434e2487e534)
+![airbnb-pipeline drawio (1)](https://github.com/aramadhanj/airbnb-data-pipeline/blob/main/images/airbnb-pipeline.png)
 
 The workflow is as follows:
 
@@ -58,7 +58,7 @@ In this stage, data transformation is performed. Initially, the creation of stag
 
 ### 6. Data Visualization
 
-![image](https://github.com/aramadhanj/airbnb-data-pipeline/assets/61931377/b6b61d3a-5c14-49a5-ab51-ca2a851a47dc)
+![image](https://github.com/aramadhanj/airbnb-data-pipeline/blob/main/images/airbnb-dashboard.png)
 
 [Link to access the dashboard](https://lookerstudio.google.com/reporting/f8fda6e9-0828-4de9-9232-cb527ef872c1)
 
