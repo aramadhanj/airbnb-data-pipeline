@@ -1,8 +1,13 @@
 # End-to-End Airbnb Data Pipeline Using Airflow
 
+## Table of Contents
+  - [Problem Definitions](https://github.com/aramadhanj/airbnb-data-pipeline/blob/main/README.md#problem-definitions)
+  - [Used Technologies](https://github.com/aramadhanj/airbnb-data-pipeline/blob/main/README.md#used-technologies)
+  - [Data Pipeline Architecture and Workflow](https://github.com/aramadhanj/airbnb-data-pipeline/blob/main/README.md#data-pipeline-architecture-and-workflow)
+
 ## Problem Definitions
 
-This project showcases the best practices from [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp). I aims to build an end-to-end data pipeline and analyze Airbnb Bangkok Data.
+This project showcases the best practices from [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp). I aim to build an end-to-end data pipeline and analyze Airbnb Bangkok Data.
 
 Founded in August 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk, Airbnb is an online marketplace and hospitality service that has revolutionized how people travel and find accommodations. The idea for Airbnb came about when the founders rented out air mattresses in their San Francisco apartment to help cover the cost of rent during a design conference in the city. This "airbed and breakfast" concept eventually evolved into the global platform we know today. Bangkok, the capital city of Thailand, is a major tourist destination with a wide range of properties listed on Airbnb. As a data enthusiast, you want to conduct an in-depth analysis of Airbnb listings in Bangkok to gain valuable property insights and understand market trends.
 
