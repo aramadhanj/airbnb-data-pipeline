@@ -1,9 +1,0 @@
-version: 2
-
-sources:
-  - name: staging
-    database: dtc-de-course-389613
-    schema: airbnb_all
-
-    tables:
-      - name: airbnb_table
