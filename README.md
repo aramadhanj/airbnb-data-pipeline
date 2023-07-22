@@ -58,7 +58,7 @@ In this stage, data transformation is performed. Initially, the creation of stag
 
 ### 6. Data Visualization
 
-![image](https://github.com/aramadhanj/airbnb-data-pipeline/blob/main/images/airbnb-dashboard.png)
+![image](https://github.com/aramadhanj/airbnb-data-pipeline/blob/main/images/airbnb-dashboard.jpg)
 
 [Link to access the dashboard](https://lookerstudio.google.com/reporting/f8fda6e9-0828-4de9-9232-cb527ef872c1)
 
